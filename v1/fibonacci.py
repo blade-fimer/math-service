@@ -1,4 +1,7 @@
 # coding=utf-8
+# Author: Yuan, Hao
+# Created on 2019/05/19
+
 import json
 from flask_restful import Resource
 

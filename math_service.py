@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
+# Author: Yuan, Hao
+# Created on 2019/05/19
 
 import argparse
 
@@ -21,7 +23,6 @@ if __name__ == '__main__':
     parser.add_argument('--conf', '-c', help='configuration file path')
     args = parser.parse_args()
 
-    os.chdir(os.path.dirname(__file__))
 #    app.logger.info('Running...')
     if args.conf:
         # TODO: read server configuration
