@@ -1,0 +1,4 @@
+*.pyc
+/build/
+/dist/
+/math_service.egg-info/
